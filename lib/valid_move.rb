@@ -11,6 +11,7 @@ def valid_move?
     TRUE
 end
   if !position_taken?
+    TRUE
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
