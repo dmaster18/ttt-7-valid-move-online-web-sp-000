@@ -2,7 +2,7 @@
 def valid_move?
   if index <= 8 && index >= 0 
     TRUE
-    puts "Valid"
+    puts "Valid move"
   else
     FALSE
   def position_taken?
