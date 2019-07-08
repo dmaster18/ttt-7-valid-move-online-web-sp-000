@@ -10,7 +10,7 @@ def valid_move?
     puts "Valid move"
   else
     FALSE
-  
+    puts "Invalid move"  
 end
   if !position_taken?
     TRUE
