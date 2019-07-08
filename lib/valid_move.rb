@@ -1,15 +1,16 @@
 # code your #valid_move? method here
 def valid_move?
-  if index <= 8 && index >= 0  && !position_taken
-    TRUE
-    puts "Valid move"
-  else
-    FALSE
   def position_taken?
   if board[index] == " " || board[index] == "" || board[index] = NIL
     FALSE
   else
     TRUE
+  if index <= 8 && index >= 0  && !position_taken
+    TRUE
+    puts "Valid move"
+  else
+    FALSE
+  
 end
   if !position_taken?
     TRUE
