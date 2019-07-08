@@ -2,6 +2,8 @@
 def valid_move?
   if index <= board.length && index >= 0 
     TRUE
+  else
+    FALSE
     
 end
 
