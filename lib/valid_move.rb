@@ -13,6 +13,7 @@ end
   if !position_taken?
     TRUE
   else
+    FALSE
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
