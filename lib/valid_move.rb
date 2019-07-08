@@ -4,14 +4,13 @@ def valid_move?
     TRUE
   else
     FALSE
-    
-end
-
-# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
-
-def position_taken?
+  def position_taken?
   if board[index] == " " || board[index] == "" || board[index] = NIL
     FALSE
   else
     TRUE
 end
+end
+
+# re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
+
