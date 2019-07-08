@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?
-  if index <= 8 && index >= 0 
+  if index <= 8 && index >= 0  && !position_taken
     TRUE
     puts "Valid move"
   else
