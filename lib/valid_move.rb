@@ -5,6 +5,7 @@ def valid_move?
       FALSE
     else
       TRUE
+  end
   if index <= 8 && index >= 0  && !position_taken
     TRUE
     puts "Valid move"
