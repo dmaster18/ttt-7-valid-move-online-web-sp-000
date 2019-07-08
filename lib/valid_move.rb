@@ -10,5 +10,4 @@ def position_taken?
     FALSE
   else
     TRUE
-
 end
