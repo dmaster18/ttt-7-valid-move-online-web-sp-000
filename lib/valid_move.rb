@@ -2,9 +2,9 @@
 def valid_move?
   def position_taken?
     if board[index] == " " || board[index] == "" || board[index] = NIL
-    FALSE
-  else
-    TRUE
+      FALSE
+    else
+      TRUE
   if index <= 8 && index >= 0  && !position_taken
     TRUE
     puts "Valid move"
